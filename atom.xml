@@ -6,7 +6,7 @@
   <link href="https://yhqz1zsy.github.io/atom.xml" rel="self"/>
   
   <link href="https://yhqz1zsy.github.io/"/>
-  <updated>2024-01-23T08:57:37.957Z</updated>
+  <updated>2024-01-23T16:19:12.451Z</updated>
   <id>https://yhqz1zsy.github.io/</id>
   
   <author>
@@ -21,18 +21,17 @@
     <link href="https://yhqz1zsy.github.io/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/"/>
     <id>https://yhqz1zsy.github.io/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/</id>
     <published>2024-01-22T16:37:53.000Z</published>
-    <updated>2024-01-23T08:57:37.957Z</updated>
+    <updated>2024-01-23T16:19:12.451Z</updated>
     
-    <content type="html"><![CDATA[<div>    <div align="left">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div>    <div align="center">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div>    <div align="right">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div></div>]]></content>
+    <content type="html"><![CDATA[<div id="timer" style="text-align: center; font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;"></div><script>// JavaScript 计时器示例// 自定义开始时间（格式：年-月-日 时:分:秒）let customStartTime = new Date('2022-10-19 19:00:00');function updateTimer() {  let currentTime = new Date();  let timeDifference = currentTime - customStartTime;  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));  let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);  let timerElement = document.getElementById('timer');  timerElement.innerHTML = '不知不觉我们已经相识了'+ days + ' 天 ' + hours + ' 小时 ' + minutes + ' 分钟 ' + seconds + ' 秒';}// 更新计时器每秒一次setInterval(updateTimer, 1000);// 初始加载时执行一次，确保立即显示计时器updateTimer();</script><div>    <div align="left">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div>    <div align="center">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div>    <div align="right">        <img src="/images/微信图片_20240120161002.jpg" width="33%" height="33%">    </div></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;div&gt;
-    &lt;div align=&quot;left&quot;&gt;
-        &lt;img src=&quot;/images/微信图片_20240120161002.jpg&quot; width=&quot;33%&quot; height=&quot;33%&quot;&gt;
-    &lt;/div&gt;
-    &lt;div align=&quot;center&quot;</summary>
+    <summary type="html">&lt;div id=&quot;timer&quot; style=&quot;text-align: center; font-family: &#39;Arial&#39;, sans-serif; font-size: 24px; font-weight: bold;&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+// JavaSc</summary>
       
     
     
