@@ -1,1 +1,1 @@
-var posts=["2024/01/23/相册集/","2024/01/17/hello-world/","2024/01/19/我的第一篇博客blog/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2024/01/19/我的第一篇博客blog/","2024/01/17/hello-world/","2024/01/23/相册集/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
