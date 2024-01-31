@@ -3,11 +3,11 @@
   <title>孤岛</title>
   
   
-  <link href="https://yhqz1zhu.top/atom.xml" rel="self"/>
+  <link href="https://yhqz1zsy.github.io/atom.xml" rel="self"/>
   
-  <link href="https://yhqz1zhu.top/"/>
+  <link href="https://yhqz1zsy.github.io/"/>
   <updated>2024-01-31T07:43:11.242Z</updated>
-  <id>https://yhqz1zhu.top/</id>
+  <id>https://yhqz1zsy.github.io/</id>
   
   <author>
     <name>灰太狼...</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>哇酷哇酷</title>
-    <link href="https://yhqz1zhu.top/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/"/>
-    <id>https://yhqz1zhu.top/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/</id>
+    <link href="https://yhqz1zsy.github.io/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/"/>
+    <id>https://yhqz1zsy.github.io/2024/01/23/%E7%9B%B8%E5%86%8C%E9%9B%86/</id>
     <published>2024-01-22T16:37:53.000Z</published>
     <updated>2024-01-31T07:43:11.242Z</updated>
     
@@ -128,8 +128,8 @@ updateTimer();
   
   <entry>
     <title>我的第一篇博客blog</title>
-    <link href="https://yhqz1zhu.top/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/"/>
-    <id>https://yhqz1zhu.top/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/</id>
+    <link href="https://yhqz1zsy.github.io/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/"/>
+    <id>https://yhqz1zsy.github.io/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/</id>
     <published>2024-01-18T16:17:40.000Z</published>
     <updated>2024-01-21T11:41:51.550Z</updated>
     
@@ -145,8 +145,8 @@ updateTimer();
   
   <entry>
     <title>Hello World</title>
-    <link href="https://yhqz1zhu.top/2024/01/17/hello-world/"/>
-    <id>https://yhqz1zhu.top/2024/01/17/hello-world/</id>
+    <link href="https://yhqz1zsy.github.io/2024/01/17/hello-world/"/>
+    <id>https://yhqz1zsy.github.io/2024/01/17/hello-world/</id>
     <published>2024-01-17T13:11:38.241Z</published>
     <updated>2024-01-21T11:41:53.956Z</updated>
     
