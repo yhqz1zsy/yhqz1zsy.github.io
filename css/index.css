@@ -1504,7 +1504,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://img1.baidu.com/it/u=4192902789,2600561750&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500);
+  background: url(https://img2.imgtp.com/2024/02/03/06bysKnJ.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -4693,6 +4693,29 @@ mjx-assistive-mml {
 @media screen and (max-width: 768px) {
   .fancybox__toolbar__column.is-middle {
     display: none;
+  }
+}
+[data-theme="dark"] #web_bg {
+  background: url(https://img2.imgtp.com/2024/02/03/AeSs2hQR.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://img2.imgtp.com/2024/02/03/pDg3g38c.jpg) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://img2.imgtp.com/2024/02/03/AmPVWAUX.jpg) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
   }
 }
 #article-container .btn-center {
