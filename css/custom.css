@@ -315,6 +315,6 @@
 }
 
 #图片放大
-img {
+.img {
     cursor: zoom-in;
 }
