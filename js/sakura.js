@@ -1,16 +1,28 @@
-// source/js/sakura.js
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-document.addEventListener('DOMContentLoaded', function () {
-    const container = document.createElement('div');
-    container.className = 'sakura';
+// 创建场景
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
 
-    for (let i = 0; i < 100; i++) {
-        const sakura = document.createElement('img');
-        sakura.src = 'https://img2.imgtp.com/2024/02/03/nHmmn9Px.jpg'; // 替换为你的樱花图片路径
-        sakura.style.left = `${Math.random() * 100}vw`;
-        sakura.style.animationDuration = `${Math.random() * 3 + 2}s`;
-        container.appendChild(sakura);
-    }
+// 创建相机控制
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.update();
 
-    document.body.appendChild(container);
+// 加载樱花模型
+const loader = new GLTFLoader();
+loader.load('path/to/your/cherry_blossoms.json', function (gltf) {
+    const cherryBlossoms = gltf.scene;
+    scene.add(cherryBlossoms);
+    animate();
 });
+
+// 动画函数
+function animate() {
+    requestAnimationFrame(animate);
+    renderer.render(scene, camera);
+}
