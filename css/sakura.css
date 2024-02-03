@@ -1,0 +1,23 @@
+/* source/css/sakura.css */
+
+.sakura {
+    position: fixed;
+    top: -10%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.sakura img {
+    width: 20px;
+    /* 调整樱花大小 */
+    height: 20px;
+    position: absolute;
+    animation: fall linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes fall {
+    to {
+        transform: translate3d(200vw, 100vh, 0);
+    }
+}
