@@ -15,7 +15,7 @@ function createtime() {
     1 == String(snum).length && (snum = "0" + snum);
     let currentTimeHtml = "";
     (currentTimeHtml =
-        hnum < 18 && hnum >= 9
+        hnum < 22 && hnum >= 4
             ? `<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/灰太狼-做牛马ing.svg' title='距离成功也就还差一个大佬带我~嘿嘿'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`
             : `<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/灰太狼-emo.svg' title='到点了，开e吧'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),
         document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = currentTimeHtml);
