@@ -125,7 +125,7 @@ var lunar = calendarFormatter.solar2lunar();
 if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {
     //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了
     if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");
+        Swal.fire(y.toString() + "年新年快乐\n🎊新的一年，知足，上进，不负野心🎊");
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
