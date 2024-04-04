@@ -37,63 +37,6 @@
   </entry>
   
   <entry>
-    <title>博客搭建历程</title>
-    <link href="http://yhqz1zhu.top/2024/02/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/"/>
-    <id>http://yhqz1zhu.top/2024/02/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</id>
-    <published>2024-02-03T06:44:55.000Z</published>
-    <updated>2024-02-03T08:49:14.638Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="还记得刚开始想搭建博客是一群吊毛们给我下达的任务-刚开始没太在意-后来想了想-我也想拥有一个属于我们之间的网站-于是便开始了第一步-故事由此开始-跟着b站上的教程下载了各种软件-nodejs和git等-下载好之后-刚开始完全看不懂-因为这涉及一点操作系统的知识-对于小白的我来说简直太难了-有时候按照b站上的教程敲都一直报错-简直要崩溃了一直游走于git-bash界面和命令提示符界面-两个界面都试试前期搭建阶段最头疼的阶段是hexo-d部署到github上托管-github又属于国外程序员交流网站，由于国内限速的原因-浏览器访问github几乎进不去，进去了也是加载很慢-导致无法部署-只能自己本地查看-无法发布到网上，让其他人也能通过网址查看-头疼了好久-经常熬夜肝到两三点-也是体验了熬夜敲代码的痛苦了-翻遍了网上的资料-依然还是没找到解决方法-一直显示无法连接到443端口-后来在b站搜”如何加速github访问”看到一篇up主的视频-按照教程下载了Watt-Toolkit-这里面有加速服务-可以加速github访问。经过多次部署报错的经验-总结了一下-在部署之前打开Watt-Toolkit启动加速服务-然后进入github页面-接着在命令提示符页面-git-bash页面也可以-不过要开启管理者模式-输入hexo-d一键部署上去-基本可以解决这个问题了。来看看我刚开始部署上去的页面。紧接着就是用hexo写文章了-还记得第一篇博客自己立了个flag-真是惭愧-一个都没实现。解决完部署问题之后就是主题美化了-这个网上都能找到相应教程-根据个人喜好选择便可-这里展示一下我的主题前面的步骤都会了之后-紧接着就是让博客变成真正的网站了-首先要去购买一个域名-也可以不买-不过这就无法体验加速服务喽-刚开始文章里面的图片加载的贼慢-还是建议去买一个-有了域名感觉档次就上去了-购买之后还有专门的客服打我电话-问我一些相关的问题-跟服务器有关的-不争气的我听不太懂一些专业名词-后面直接跟客服唠起了嗑-我真是人才-哈哈哈-。其次还要进行实名认证-否则无法解析域名哦为了完成这些步骤-我也走了很多弯路-浪费了不少时间和精力-ps-由于经常肝到两三点，脸上长了好多痘痘-呜呜呜-后来发现其实是非常简单的问题-我却搞了那么久-我真蠢啊啊啊啊-域名解析出错导致网站无法访问-快把我整死了-对于情绪不稳定的我来说真的要炸了。后面在网上疯狂查找资源-配置了正确的解析域名-在netlify中托管部署-问题又来了-配置了域名之后-由于我的hexo文章加了好多图片-加载非常慢-根本受不了-本地访问还行-一旦发布到网上就慢的不行-这时在别人的博客中看到了免费图床-便照着上面的教程下载了图床-自带加速功能-把图片上传到图床-在文章中直接访问图片链接。图床问题解决之后-最后一步便是把网站加速-利用CDN加速访客访问这是加速之前的速度这是加速之后的速度至此-网站差不多是搭建完成了-剩下的就是写文章等一些内容-以后慢慢总结记录下来。最后一步-当然这一步可有可无-就是下载域名证书-以后就可以直接通过域名访问啦"><a href="#还记得刚开始想搭建博客是一群吊毛们给我下达的任务-刚开始没太在意-后来想了想-我也想拥有一个属于我们之间的网站-于是便开始了第一步-故事由此开始-跟着b站上的教程下载了各种软件-nodejs和git等-下载好之后-刚开始完全看不懂-因为这涉及一点操作系统的知识-对于小白的我来说简直太难了-有时候按照b站上的教程敲都一直报错-简直要崩溃了一直游走于git-bash界面和命令提示符界面-两个界面都试试前期搭建阶段最头疼的阶段是hexo-d部署到github上托管-github又属于国外程序员交流网站，由于国内限速的原因-浏览器访问github几乎进不去，进去了也是加载很慢-导致无法部署-只能自己本地查看-无法发布到网上，让其他人也能通过网址查看-头疼了好久-经常熬夜肝到两三点-也是体验了熬夜敲代码的痛苦了-翻遍了网上的资料-依然还是没找到解决方法-一直显示无法连接到443端口-后来在b站搜”如何加速github访问”看到一篇up主的视频-按照教程下载了Watt-Toolkit-这里面有加速服务-可以加速github访问。经过多次部署报错的经验-总结了一下-在部署之前打开Watt-Toolkit启动加速服务-然后进入github页面-接着在命令提示符页面-git-bash页面也可以-不过要开启管理者模式-输入hexo-d一键部署上去-基本可以解决这个问题了。来看看我刚开始部署上去的页面。紧接着就是用hexo写文章了-还记得第一篇博客自己立了个flag-真是惭愧-一个都没实现。解决完部署问题之后就是主题美化了-这个网上都能找到相应教程-根据个人喜好选择便可-这里展示一下我的主题前面的步骤都会了之后-紧接着就是让博客变成真正的网站了-首先要去购买一个域名-也可以不买-不过这就无法体验加速服务喽-刚开始文章里面的图片加载的贼慢-还是建议去买一个-有了域名感觉档次就上去了-购买之后还有专门的客服打我电话-问我一些相关的问题-跟服务器有关的-不争气的我听不太懂一些专业名词-后面直接跟客服唠起了嗑-我真是人才-哈哈哈-。其次还要进行实名认证-否则无法解析域名哦为了完成这些步骤-我也走了很多弯路-浪费了不少时间和精力-ps-由于经常肝到两三点，脸上长了好多痘痘-呜呜呜-后来发现其实是非常简单的问题-我却搞了那么久-我真蠢啊啊啊啊-域名解析出错导致网站无法访问-快把我整死了-对于情绪不稳定的我来说真的要炸了。后面在网上疯狂查找资源-配置了正确的解析域名-在netlify中托管部署-问题又来了-配置了域名之后-由于我的hexo文章加了好多图片-加载非常慢-根本受不了-本地访问还行-一旦发布到网上就慢的不行-这时在别人的博客中看到了免费图床-便照着上面的教程下载了图床-自带加速功能-把图片上传到图床-在文章中直接访问图片链接。图床问题解决之后-最后一步便是把网站加速-利用CDN加速访客访问这是加速之前的速度这是加速之后的速度至此-网站差不多是搭建完成了-剩下的就是写文章等一些内容-以后慢慢总结记录下来。最后一步-当然这一步可有可无-就是下载域名证书-以后就可以直接通过域名访问啦" class="headerlink" title="还记得刚开始想搭建博客是一群吊毛们给我下达的任务,刚开始没太在意,后来想了想,我也想拥有一个属于我们之间的网站,于是便开始了第一步,故事由此开始.跟着b站上的教程下载了各种软件,nodejs和git等,下载好之后,刚开始完全看不懂,因为这涉及一点操作系统的知识,对于小白的我来说简直太难了,有时候按照b站上的教程敲都一直报错,简直要崩溃了一直游走于git bash界面和命令提示符界面,两个界面都试试前期搭建阶段最头疼的阶段是hexo d部署到github上托管,github又属于国外程序员交流网站，由于国内限速的原因,浏览器访问github几乎进不去，进去了也是加载很慢,导致无法部署,只能自己本地查看,无法发布到网上，让其他人也能通过网址查看,头疼了好久,经常熬夜肝到两三点,也是体验了熬夜敲代码的痛苦了,翻遍了网上的资料,依然还是没找到解决方法,一直显示无法连接到443端口,后来在b站搜”如何加速github访问”看到一篇up主的视频,按照教程下载了Watt Toolkit,这里面有加速服务,可以加速github访问。经过多次部署报错的经验,总结了一下,在部署之前打开Watt Toolkit启动加速服务,然后进入github页面,接着在命令提示符页面(git bash页面也可以,不过要开启管理者模式)输入hexo d一键部署上去,基本可以解决这个问题了。来看看我刚开始部署上去的页面。紧接着就是用hexo写文章了,还记得第一篇博客自己立了个flag,真是惭愧,一个都没实现。解决完部署问题之后就是主题美化了,这个网上都能找到相应教程,根据个人喜好选择便可,这里展示一下我的主题前面的步骤都会了之后,紧接着就是让博客变成真正的网站了,首先要去购买一个域名(也可以不买,不过这就无法体验加速服务喽,刚开始文章里面的图片加载的贼慢,还是建议去买一个,有了域名感觉档次就上去了),购买之后还有专门的客服打我电话,问我一些相关的问题(跟服务器有关的,不争气的我听不太懂一些专业名词,后面直接跟客服唠起了嗑,我真是人才,哈哈哈)。其次还要进行实名认证,否则无法解析域名哦为了完成这些步骤,我也走了很多弯路,浪费了不少时间和精力(ps:由于经常肝到两三点，脸上长了好多痘痘,呜呜呜;后来发现其实是非常简单的问题,我却搞了那么久,我真蠢啊啊啊啊!),域名解析出错导致网站无法访问,快把我整死了,对于情绪不稳定的我来说真的要炸了。后面在网上疯狂查找资源,配置了正确的解析域名(在netlify中托管部署)问题又来了,配置了域名之后,由于我的hexo文章加了好多图片,加载非常慢,根本受不了,本地访问还行,一旦发布到网上就慢的不行,这时在别人的博客中看到了免费图床,便照着上面的教程下载了图床,自带加速功能,把图片上传到图床,在文章中直接访问图片链接。图床问题解决之后,最后一步便是把网站加速,利用CDN加速访客访问这是加速之前的速度这是加速之后的速度至此,网站差不多是搭建完成了,剩下的就是写文章等一些内容,以后慢慢总结记录下来。最后一步,当然这一步可有可无,就是下载域名证书,以后就可以直接通过域名访问啦"></a>还记得刚开始想搭建博客是一群吊毛们给我下达的任务,刚开始没太在意,后来想了想,我也想拥有一个属于我们之间的网站,于是便开始了第一步,故事由此开始.<br><img src="https://img2.imgtp.com/2024/02/03/eZGHyUvm.jpg"><br>跟着b站上的教程下载了各种软件,nodejs和git等,下载好之后,刚开始完全看不懂,因为这涉及一点操作系统的知识,对于小白的我来说简直太难了,有时候按照b站上的教程敲都一直报错,简直要崩溃了<br><img src="https://img2.imgtp.com/2024/02/03/I2JV9NtH.jpg"><br>一直游走于git bash界面和命令提示符界面,两个界面都试试<br><img src="https://img2.imgtp.com/2024/02/03/gpcpaIkF.jpg"><br><img src="https://img2.imgtp.com/2024/02/03/3tLgJPIc.jpg"><br>前期搭建阶段最头疼的阶段是hexo d部署到github上托管,github又属于国外程序员交流网站，由于国内限速的原因,浏览器访问github几乎进不去，进去了也是加载很慢,导致无法部署,只能自己本地查看,无法发布到网上，让其他人也能通过网址查看,头疼了好久,经常熬夜肝到两三点,也是体验了熬夜敲代码的痛苦了,翻遍了网上的资料,依然还是没找到解决方法,一直显示无法连接到443端口,后来在b站搜”如何加速github访问”看到一篇up主的视频,按照教程下载了Watt Toolkit,这里面有加速服务,可以加速github访问。<br><img src="https://img2.imgtp.com/2024/02/03/USeujOQh.png"><br>经过多次部署报错的经验,总结了一下,在部署之前打开Watt Toolkit启动加速服务,然后进入github页面,接着在命令提示符页面(git bash页面也可以,不过要开启管理者模式)输入hexo d一键部署上去,基本可以解决这个问题了。来看看我刚开始部署上去的页面。<br><img src="https://img2.imgtp.com/2024/02/03/4q2Vc915.png"><br><img src="https://img2.imgtp.com/2024/02/03/DPyliZ3A.png"><br>紧接着就是用hexo写文章了,还记得第一篇博客自己立了个flag,真是惭愧,一个都没实现。<br><img src="https://img2.imgtp.com/2024/02/03/wK4Dilbs.png"><br><img src="https://img2.imgtp.com/2024/02/03/kqyVSr6I.png"><br>解决完部署问题之后就是主题美化了,这个网上都能找到相应教程,根据个人喜好选择便可,这里展示一下我的主题<br><img src="https://img2.imgtp.com/2024/02/03/U0jfE86d.png"><br><img src="https://img2.imgtp.com/2024/02/03/iauMTgFQ.png"><br><img src="https://img2.imgtp.com/2024/02/03/gWAnUVLW.png"><br>前面的步骤都会了之后,紧接着就是让博客变成真正的网站了,首先要去购买一个域名(也可以不买,不过这就无法体验加速服务喽,刚开始文章里面的图片加载的贼慢,还是建议去买一个,有了域名感觉档次就上去了),购买之后还有专门的客服打我电话,问我一些相关的问题(跟服务器有关的,不争气的我听不太懂一些专业名词,后面直接跟客服唠起了嗑,我真是人才,哈哈哈)。<br><img src="https://img2.imgtp.com/2024/02/03/0LSPfrbu.png"><br><img src="https://img2.imgtp.com/2024/02/03/nBHUteJA.jpg"><br>其次还要进行实名认证,否则无法解析域名哦<br><img src="https://img2.imgtp.com/2024/02/03/AsjLbPzX.png"><br>为了完成这些步骤,我也走了很多弯路,浪费了不少时间和精力(ps:由于经常肝到两三点，脸上长了好多痘痘,呜呜呜;后来发现其实是非常简单的问题,我却搞了那么久,我真蠢啊啊啊啊!),域名解析出错导致网站无法访问,快把我整死了,对于情绪不稳定的我来说真的要炸了。<br><img src="https://img2.imgtp.com/2024/02/03/ahTza3Sh.png"><br>后面在网上疯狂查找资源,配置了正确的解析域名(在netlify中托管部署)<br><img src="https://img2.imgtp.com/2024/02/03/H7ITFxQc.png"><br>问题又来了,配置了域名之后,由于我的hexo文章加了好多图片,加载非常慢,根本受不了,本地访问还行,一旦发布到网上就慢的不行,这时在别人的博客中看到了免费图床,便照着上面的教程下载了图床,自带加速功能,把图片上传到图床,在文章中直接访问图片链接。<br><img src="https://img2.imgtp.com/2024/02/03/6xRxtVIu.png"><br><img src="https://img2.imgtp.com/2024/02/03/EhajBoXA.png"><br>图床问题解决之后,最后一步便是把网站加速,利用CDN加速访客访问<br>这是加速之前的速度<br><img src="https://img2.imgtp.com/2024/02/03/aidB672k.png"><br>这是加速之后的速度<br><img src="https://img2.imgtp.com/2024/02/03/xtrMyMRE.png"><br>至此,网站差不多是搭建完成了,剩下的就是写文章等一些内容,以后慢慢总结记录下来。<br>最后一步,当然这一步可有可无,就是下载域名证书,以后就可以直接通过域名访问啦<br><img src="https://img2.imgtp.com/2024/02/03/EWPBZqWD.png"><br><img src="https://img2.imgtp.com/2024/02/03/lGukMwcW.png"></h2><hr><h2 id="写网站是真的累啊-伤身体-不过付出和回报也是成正比的-短短十几天也学会了很多-了解了一些专业知识-学会了检索一些东西-这一点非常重要-也算是明白了程序员用的最多的是Ctrl-c-Ctrl-v了-哈哈哈-。技术是一点一点积累的，大神也不是一天就可以达到的。原地不动就是退步，所以每天进步一点点。最后-附上一句格言-”好学若饥-谦卑若愚”-望共勉。"><a href="#写网站是真的累啊-伤身体-不过付出和回报也是成正比的-短短十几天也学会了很多-了解了一些专业知识-学会了检索一些东西-这一点非常重要-也算是明白了程序员用的最多的是Ctrl-c-Ctrl-v了-哈哈哈-。技术是一点一点积累的，大神也不是一天就可以达到的。原地不动就是退步，所以每天进步一点点。最后-附上一句格言-”好学若饥-谦卑若愚”-望共勉。" class="headerlink" title="写网站是真的累啊!伤身体,不过付出和回报也是成正比的,短短十几天也学会了很多,了解了一些专业知识,学会了检索一些东西,这一点非常重要(也算是明白了程序员用的最多的是Ctrl+c,Ctrl+v了,哈哈哈)。技术是一点一点积累的，大神也不是一天就可以达到的。原地不动就是退步，所以每天进步一点点。最后,附上一句格言:”好学若饥,谦卑若愚”,望共勉。"></a>写网站是真的累啊!伤身体,不过付出和回报也是成正比的,短短十几天也学会了很多,了解了一些专业知识,学会了检索一些东西,这一点非常重要(也算是明白了程序员用的最多的是Ctrl+c,Ctrl+v了,哈哈哈)。技术是一点一点积累的，大神也不是一天就可以达到的。原地不动就是退步，所以每天进步一点点。最后,附上一句格言:”好学若饥,谦卑若愚”,望共勉。</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>寒假日常</title>
-    <link href="http://yhqz1zhu.top/2024/01/31/%E5%AF%92%E5%81%87%E6%97%A5%E5%B8%B8/"/>
-    <id>http://yhqz1zhu.top/2024/01/31/%E5%AF%92%E5%81%87%E6%97%A5%E5%B8%B8/</id>
-    <published>2024-01-31T13:44:48.000Z</published>
-    <updated>2024-02-09T14:25:44.700Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="为什么在家里这么颓废啊-学不下去一点算法算法算法-真的要开始学了-呜呜呜"><a href="#为什么在家里这么颓废啊-学不下去一点算法算法算法-真的要开始学了-呜呜呜" class="headerlink" title="为什么在家里这么颓废啊,学不下去一点算法算法算法,真的要开始学了,呜呜呜"></a>为什么在家里这么颓废啊,学不下去一点<br>算法算法算法,真的要开始学了,呜呜呜</h2><hr><h2 id><a href="#" class="headerlink" title></a><img src="https://img2.imgtp.com/2024/02/09/lKrDuJYA.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/Vr0UYRMm.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/7BxPpT6J.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/CwVY7BFX.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/66RERiBK.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/v8d3SwOD.jpg"><br><img src="https://img2.imgtp.com/2024/02/09/MSnzEVyD.jpg"></h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇博客blog</title>
-    <link href="http://yhqz1zhu.top/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/"/>
-    <id>http://yhqz1zhu.top/2024/01/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2blog/</id>
-    <published>2024-01-18T16:17:40.000Z</published>
-    <updated>2024-02-15T15:24:32.552Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##blog网址</p><p>我的GitHub博客网址为yhqz1zsy.github.io</p><hr><p>##寒假计划</p><p>学习acwing算法，一天吃透三道题<br>搭建升级版的blog！！！<br>少熬夜，早睡早起！！！</p><hr><p>##学习资源</p><p><a href="http://www.codesheep.cn/">www.codesheep.cn</a><br><a href="http://www.acwing.com/">www.acwing.com</a><br><a href="https://happyleecode.github.io/">https://happyleecode.github.io/</a><br><a href="https://www.fomal.cc/">https://www.fomal.cc/</a><br><a href="https://www.runoob.com/">https://www.runoob.com/</a></p>]]></content>
-    
-    
-    <summary type="html">随笔blog</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yhqz1zhu.top/2024/01/17/hello-world/"/>
     <id>http://yhqz1zhu.top/2024/01/17/hello-world/</id>
